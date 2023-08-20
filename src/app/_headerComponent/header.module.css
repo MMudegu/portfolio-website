@@ -1,0 +1,44 @@
+.headerContainer{
+    display: flex;
+    flex: 1 1 100%;
+    border-bottom: 2px solid;
+    background-color: #3BAEF5;
+    position: sticky;
+    top:0px;
+    min-height: 10vh;
+}
+
+.iconContainer{
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.FA_Icon{
+    font-size: xx-large;
+    margin-right: 5px;
+}
+
+@media screen and (min-width:560px) {
+    /*The Icon class contains FA_Icon and the test description of the icon links for the social media channel*/
+    .icon{
+        display: flex;
+        flex: 1 1 100%;
+        place-items: center;
+        margin: 10px;
+    }
+    
+}
+
+.navLinksContainer{
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: right;
+}
+
+.navLinks{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

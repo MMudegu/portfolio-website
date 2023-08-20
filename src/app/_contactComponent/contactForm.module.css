@@ -1,0 +1,144 @@
+.FormContainer{
+    display: grid;
+    height: 100vh;
+    background-color: #3BAEF5;    
+    padding-bottom: 250px;
+    text-align: center;
+}
+
+.Formfield{
+    display: grid;
+    margin: 10px;
+}
+
+.SubmitButton{
+    width: 200px;
+    height: 60px;
+    justify-self: center;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+.SubmitButton:hover{
+    box-shadow: 0px 0px 30px inset #e13c34fb;
+}
+
+.Errors{
+    color: rgba(237, 35, 35, 0.826);
+    justify-self: center;
+}
+
+.Message,.TextInput{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {    
+    .TextInput{
+        width: 70%;
+        height: 25px;
+        margin-top: 10px;
+        justify-self: center;
+    }
+
+    .Message{
+        width: 90%;
+        height: 70%;
+        justify-self: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .Formfield{
+        text-align: right;
+        grid-template-columns: 0.3fr 0.7fr;
+        grid-template-rows: 0.2fr 0.6fr 0.2fr;
+    }
+
+    .Errors{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .Labels{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end:3;
+        padding-top: 15px;
+    }
+
+    .TextInput{
+        width: 70%;
+        height: 25px;
+        margin-top: 10px;
+        justify-self: left;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:3;
+    }
+
+    .Message{
+        width: 90%;
+        height: 70%;
+        justify-self: center;
+        margin-top: 10px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:3;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .Formfield{
+        text-align: right;
+        grid-template-columns: 0.3fr 0.7fr;
+        grid-template-rows: 0.2fr 0.6fr 0.2fr;
+        max-width: 1100px;
+    }
+
+    .Errors{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-self: center;
+    }
+
+    .Labels{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end:3;
+        padding-top: 15px;
+    }
+
+    .TextInput{
+        width: 70%;
+        height: 25px;
+        margin-top: 10px;
+        justify-self: left;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:3;
+        margin-left: 10px;
+    }
+
+    .Message{
+        width: 90%;
+        height: 70%;
+        justify-self: left;
+        margin-top: 10px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:3;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,44 @@
+.ProjectsTileContainer{
+    display: flex;
+    background-color: #FFFAC3;
+    justify-content: center;
+    /* justify-items: center; */
+    text-align: center;
+    border: solid;
+    width: 375px;
+}
+
+.ImageContainer{
+    display: grid;
+    grid-template-columns: 0.05fr 0.9fr 0.05fr;
+    grid-template-rows: 0.05fr 0.95fr;
+}
+
+.ImageButtonPrev,.ImageButtonNext{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #F5CB2E;
+    align-self: center;
+    grid-row-start: 2;
+}
+
+.ImageButtonPrev:hover {
+    box-shadow: 2px 2px 2px #1c1b1a;
+}
+
+.ImageButtonNext:hover{
+    box-shadow: -2px 2px 2px #1c1b1a;
+}
+
+.ProjectImage{
+    height: 230px;
+    width: 300px;
+    grid-row-start: 2;
+}
+
+.ImageTitle{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
