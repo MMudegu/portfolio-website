@@ -60,7 +60,7 @@ export default function ContactForm(){
 
     return(
         <>
-            <form className={formStyle.FormContainer} onSubmit={handleSubmit(onSubmit)}>
+            <form className={formStyle.FormContainer} onSubmit={handleSubmit(onSubmit)} id='ContactMe'>
                 <h1 style={titleFont.style}>Contact Me</h1>
 
                 <span className={formStyle.Formfield}>
