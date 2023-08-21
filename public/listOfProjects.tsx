@@ -36,6 +36,6 @@ export const listOfProjects:listOfProjectsType[]  = [{
     technology: `HTML, CSS, Javascript and React`,
     description: `This is a complete website of a fictional restaurant called The Little Lemon. All the features are implemented including:
                   the login and sign up form, a menu, a table reservation feature and the landing page.`,
-    url: `https://vercel.com/mmudegu/restaurant-app/AX48ZFeAincZ9LLJhQQRHYf1dgy8`
+    url: `https://restaurant-ggv0s3pjx-mmudegu.vercel.app/`
 }
 ]

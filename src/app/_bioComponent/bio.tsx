@@ -10,7 +10,7 @@ const titleFont = Markazi_Text({
 
 const paragraphFont = Karla({
     subsets: ['latin'],
-    weight:'700'
+    weight:'700',
 })
 
 export default function Bio(){
