@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Head from 'next/head'
 import globalStyle from './global.module.css'
 import Header from './_headerComponent/header'
 
@@ -15,6 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="author" content="Marvin Mudegu"/>
+        <meta property="og:title" content="Portfolio Website"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://MarvinMudegu.online"/>
+        {/*<meta property="og:image" content="../Resources/Logo.svg"/>*/}
+        <meta property="og:description" content="This is a portfolio website"/>
+        <meta property="og:site_name" content="Marvin Mudegu"/>
+      </Head>
       <body className={globalStyle.bodyContainer}>
         <Header/>
         {children}

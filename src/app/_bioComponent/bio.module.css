@@ -1,7 +1,7 @@
 .bioContainer{
     display: grid;
     height: 90vh;
-    background-color: #540FA8 ;
+    background-color: #903af9 ;
     align-items: center;
     justify-content: center;
     grid-template-rows: 0.1fr 0.4fr 0.5fr;
